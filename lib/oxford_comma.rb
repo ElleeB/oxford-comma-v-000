@@ -1,11 +1,3 @@
-#array = ["x"]
-
-#array = ["x", "y"]
-
-#array = ["x", "y", "z"]
-
-#array = ["x", "y", "z", "puppies"]
-
 def oxford_comma(array)
   if array.size == 1
     array.join
