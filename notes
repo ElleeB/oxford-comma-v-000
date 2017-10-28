@@ -1,3 +1,14 @@
+Alternative Successful Block
+
+
+orig_array = array
+new_array = array.shift(2)
+string = new_array.join(", ")
+string << ", and "
+string << orig_array.join
+
+
+
 
 def oxford_comma(array)
   if array.size == 1
