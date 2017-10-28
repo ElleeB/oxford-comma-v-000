@@ -11,13 +11,7 @@ def oxford_comma(array)
     array.join
   elsif array.size == 2
     array.join(" and ")
-  elsif array.size == 3
-    orig_array = array
-    new_array = array.shift(2)
-    string = new_array.join(", ")
-    string << ", and "
-    string << orig_array.join
-  elsif array.size > 3
+  elsif array.size >= 3
     orig_array = array
     last_element = array.slice!(-1)
     string = array.join(", ")
